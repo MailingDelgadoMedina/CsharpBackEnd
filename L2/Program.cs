@@ -1,27 +1,17 @@
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
 
-app.UseRouting();
+app.MapGet("/", () => "Hello World!");
 
-app.UseAuthorization();
+app.Run(async (context) => {
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    string response = "<h1>Query String Parameters</h1>" +"<p>Enter a URL like:</p>" + "<a href=\"https://localhost:5001/?firstname=Jane&lastname=Smith&age=30\">" + "http://localhost:5001/?firstname=Jane&lastname=Smith&age=30</a>";
 
-app.Run();
+    foreach (var queryParameter in context.Request.Query) {
+        response += "<p>" + queryParameter + "</p>";
+    }
+        
+    await context.Response.WriteAsync (response);
+    });
