@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\L2\\L2.csproj": {}
+    "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\HttpCookies\\HttpCookies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\L2\\L2.csproj": {
+    "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\HttpCookies\\HttpCookies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\L2\\L2.csproj",
-        "projectName": "L2",
-        "projectPath": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\L2\\L2.csproj",
+        "projectUniqueName": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\HttpCookies\\HttpCookies.csproj",
+        "projectName": "HttpCookies",
+        "projectPath": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\HttpCookies\\HttpCookies.csproj",
         "packagesPath": "C:\\Users\\PURPL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\L2\\obj\\",
+        "outputPath": "C:\\Users\\PURPL\\OneDrive\\MyOneDriveDocuments\\WORK\\LeaningSource\\Training and Solutions\\SelfDevelopment\\CS\\CSbe\\HttpCookies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PURPL\\AppData\\Roaming\\NuGet\\NuGet.Config"
